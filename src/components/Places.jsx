@@ -163,10 +163,10 @@ const places = () => {
   return (
     <div className="bg-gray-50 py-10 px-5 sm:px-10 lg:px-30">
       <div className="">
-        <h1 className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold ">
+        <h1 data-aos="fade-up" className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold ">
           Best Places to Visit
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {PlacesData.map((item, index) => {
             return <PlacesCard key={index} {...item} />;
           })}

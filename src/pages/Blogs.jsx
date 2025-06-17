@@ -1,9 +1,11 @@
-import React from 'react'
+import BlogCom from "../components/blogs/BlogCom";
 
 const Blogs = () => {
   return (
-    <div className='px-5 sm:px-10 lg:px-30'>Blogs</div>
-  )
-}
+    <div className="min-h-screen pt-14 bg-gray-100">
+      <BlogCom />
+    </div>
+  );
+};
 
-export default Blogs
+export default Blogs;

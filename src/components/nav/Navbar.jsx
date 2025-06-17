@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             {/* logo */}
             <div className="">
-              <Link
+              <NavLink
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
                 onClick={() => window.scrollTo(0, 0)}
@@ -52,15 +52,15 @@ const Navbar = () => {
                   src="https://media.istockphoto.com/id/1258141375/vector/plane-travel-icon-air-travel-around-the-world-flying-around-the-world-travel-agency-logo.jpg?s=612x612&w=0&k=20&c=QaZk5NDYsdfKd_7iUNAe3CImkcwlzyaibpMuYIteeWY="
                   alt=""
                 />
-              </Link>
+              </NavLink>
             </div>
             {/* Desctop Navlink */}
             <div className="hidden sm:block ">
               <ul className="flex items-center gap-6 ">
                 <li className="py-4">
                   <NavLink
-                    activeClassname="active"
-                    to=""
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                    to="/"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     Home
@@ -68,16 +68,15 @@ const Navbar = () => {
                 </li>
                 <li className="py-4">
                   <NavLink
-                    activeClassname="active"
                     to="/blogs"
-                    onClick={() => window.scrollTo(0, 0)}
+                    className={({ isActive }) => (isActive ? "active" : "")}
                   >
                     Blogs
                   </NavLink>
                 </li>
                 <li className="py-4">
                   <NavLink
-                    activeClassname="active"
+                    className={({ isActive }) => (isActive ? "active" : "")}
                     to="/places"
                     onClick={() => window.scrollTo(0, 0)}
                   >
@@ -86,7 +85,7 @@ const Navbar = () => {
                 </li>
                 <li className="py-4">
                   <NavLink
-                    activeClassname="active"
+                    className={({ isActive }) => (isActive ? "active" : "")}
                     to="/about"
                     onClick={() => window.scrollTo(0, 0)}
                   >

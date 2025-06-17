@@ -6,9 +6,18 @@ import Blogs from "./pages/Blogs";
 import BlogsDetails from "./pages/BlogsDetails";
 import PlacesRoute from "./pages/PlacesRoute";
 import NoPage from "./pages/NoPage";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: "1000",
+    });
+  }, []);
   return (
     <>
       <BrowserRouter>

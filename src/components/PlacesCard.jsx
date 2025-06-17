@@ -3,7 +3,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const PlacesCard = ({ url, title, location, description, price, type }) => {
   return (
-    <div className="shadow-lg transition duration-500 hover:shadow-xl cursor-pointer rounded overflow-hidden">
+    <div className="shadow-lg transition duration-500 hover:shadow-xl cursor-pointer overflow-hidden">
       <div className="overflow-hidden ">
         <img
           src={url}

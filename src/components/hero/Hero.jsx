@@ -72,7 +72,11 @@ const Hero = () => {
             </div>
           </div>{" "}
           {/* Button */}
-          <button className="bg-gradient-to-r z-10 from-primary to-secondary hover:bg-gradient-to-r hover:from-secondary hover:to-primary hover:scale-105 transition-all duration-300 text-white px-4 py-2 rounded-full cursor-pointer font-medium whitespace-nowrap absolute -translate-x-1/2 -bottom-5 left-1/2">
+          <button
+            data-aos="fade-up"
+            data-aos-delay="800"
+            className="bg-gradient-to-r z-10 from-primary to-secondary hover:bg-gradient-to-r hover:from-secondary hover:to-primary hover:scale-105 transition-all duration-300 text-white px-4 py-2 rounded-full cursor-pointer font-medium whitespace-nowrap absolute -translate-x-1/2 -bottom-5 left-1/2"
+          >
             Search Now
           </button>
         </div>
