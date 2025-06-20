@@ -7,10 +7,10 @@ const Hero = () => {
 
   return (
     <div className="h-full">
-      <div className="px-5 sm:px-10 lg:px-30 h-full flex justify-center items-center bg-primary/10">
+      <div className="px-5 sm:px-10 lg:px-30 h-full flex justify-center items-center">
         <div className="grid grid-cols-1 gap-4 relative">
           {/* Text Content Section */}
-          <div className="text-white">
+          <div className="text-grow">
             <p data-aos="fade-up">Our Packeges</p>
             <p
               data-aos="fade-up"
@@ -24,9 +24,9 @@ const Hero = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="600"
-            className="space-y-4 bg-white rounded-md p-4 relative"
+            className="space-y-4 bg-grow rounded-md p-4 relative"
           >
-            <div className="grid grid-cols-1 sm:grid-cols-3 py-3 text-gray-600 gap-3 sm:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 py-3 text-back font-medium gap-3 sm:gap-5">
               <div className="">
                 <label className="opacity-70" htmlFor="destination">
                   Search your Destination
@@ -36,7 +36,7 @@ const Hero = () => {
                   name="destination"
                   id="destination"
                   placeholder="Dubai"
-                  className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-gray-200 outline-1 rounded-full p-2 px-4 border-none"
+                  className="w-full bg-primary/10 my-2 range accent-primary focus:outline-primary focus:outline outline-grow/20 outline-1 rounded-full p-2 px-4 border-none"
                 />
               </div>
               <div className="">
@@ -47,7 +47,7 @@ const Hero = () => {
                   type="date"
                   name="date"
                   id="date"
-                  className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-gray-200 outline-1 rounded-full p-2 px-4 border-none"
+                  className="w-full bg-primary/10 my-2 range accent-primary focus:outline-primary focus:outline outline-grow/20 outline-1 rounded-full p-2 px-4 border-none"
                 />
               </div>
               <div className="">
@@ -75,7 +75,7 @@ const Hero = () => {
           <button
             data-aos="fade-up"
             data-aos-delay="800"
-            className="bg-gradient-to-r z-10 from-primary to-secondary hover:bg-gradient-to-r hover:from-secondary hover:to-primary hover:scale-105 transition-all duration-300 text-white px-4 py-2 rounded-full cursor-pointer font-medium whitespace-nowrap absolute -translate-x-1/2 -bottom-5 left-1/2"
+            className="bg-gradient-to-r z-10 from-primary to-secondary hover:bg-gradient-to-r hover:from-secondary hover:to-primary hover:scale-105 transition-all duration-300 text-grow px-4 py-2 rounded-full cursor-pointer font-medium growspace-nowrap absolute -translate-x-1/2 -bottom-5 left-1/2"
           >
             Search Now
           </button>

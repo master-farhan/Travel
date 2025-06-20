@@ -76,25 +76,25 @@ const Testimonial = () => {
 
   return (
     <div className="py-10 overflow-x-hidden">
-      <div className="py-10 px-5 sm:px-10 lg:px-30 ">
+      <div className="py-10 px-5 sm:px-10 lg:px-30">
         {/* header section */}
-        <div className="text-center mb-20 max-w-[400px] mx-auto">
+        <div className="text-center mb-10 max-w-[400px] mx-auto">
           <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
             Testimonial
           </p>
           <h1 className="text-3xl font-bold">Testimonial</h1>
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-grow/50">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
             cumque velit, tempora consequatur ipsam consectetur unde, reiciendis
             nisi ex officia quam, nostrum mollitia. Atque, neque.
           </p>
         </div>
         {/* tesmonial section */}
-        <Slider {...settings}>
+        <Slider {...settings} >
           {TestimonialData.map((data) => {
             return (
               <div key={data.id} className="my-6 px-4">
-                <div className="bg-secondary/10 p-6 rounded shadow-md justify-center flex flex-col items-center relative text-center gap-4">
+                <div className="bg-secondary/10 p-6 rounded shadow-md justify-center flex flex-col items-center relative text-center gap-5 mx-5">
                   <img
                     src={data.img}
                     alt={data.name}

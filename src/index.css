@@ -1,11 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #02a993;
-  --color-secondary: #00c798;
+  --color-primary: #00c479;
+  --color-secondary: #00add8;
+  --color-back: #111;
+  --color-grow: #fff;
 }
 /* 0288a9 */
 /* 00c3c7 */
+.hi {
+  background: #00c479;
+  background: #00c798;
+}
+
+.trans {
+  transition: all 0.3s;
+}
 
 @layer base {
   .active {

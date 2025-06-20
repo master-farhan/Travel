@@ -32,24 +32,20 @@ const Footer = () => {
   ];
 
   return (
-    <div className="px-5 py-10 md:px-10 md:py-15 lg:p-15 relative overflow-hidden  bg-primary/30 ">
+    <div className="px-5 py-10 md:px-10 md:py-15 lg:px-30 relative overflow-hidden  bg-primary/10">
       <video
         autoPlay
         muted
         loop
         className="absolute h-full w-full -z-1 top-0 left-0 object-cover overflow-hidden"
       >
-        <source src="https://media.istockphoto.com/id/699620004/video/landscape-of-clear-stream.mp4?s=mp4-640x640-is&k=20&c=U_MzUJ7sW9OaNgASXb13DJot7zT9x0mGDrrxkLcpO_g=" />
+        <source src="https://videos.pexels.com/video-files/1994829/1994829-hd_1920_1080_24fps.mp4" />
       </video>
       <div className="">
         <div className="grid grid-cols-1 sm:grid-cols-2 py-5 bg-white backdrop:backdrop-blur-3xl rounded-t-2xl">
           <div className="px-10">
             <h1 className="flex items-center gap-3 text-xl sm:text-3xl font text-justify sm:text-left">
-              <img
-                className="h-15"
-                src="https://media.istockphoto.com/id/1258141375/vector/plane-travel-icon-air-travel-around-the-world-flying-around-the-world-travel-agency-logo.jpg?s=612x612&w=0&k=20&c=QaZk5NDYsdfKd_7iUNAe3CImkcwlzyaibpMuYIteeWY="
-                alt=""
-              />
+              <h2 className="text-primary font-mono tracking-tight text-2xl font-bold">ChillTrip</h2>
             </h1>
             <p className="text-sm pt-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste

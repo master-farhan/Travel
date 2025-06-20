@@ -1,5 +1,4 @@
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
-import Boxpng from "../../assets/box.png";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
 
@@ -13,7 +12,7 @@ const Banner = () => {
             <div className="">
               <img
                 data-aos="fade-right"
-                src={Boxpng}
+                src='https://static.vecteezy.com/system/resources/thumbnails/011/200/154/small_2x/travelling-vacation-design-illustration-png.png'
                 alt=""
                 className="max-w-[450px] h-[350px] w-full mx-auto drop-shadow-[5px_5px_12px_rgba(0,0,0,0.7)] object-cover"
               />
